@@ -5,3 +5,4 @@
 vim.o.expandtab = false
 vim.o.clipboard = ""
 vim.o.wrap = true
+vim.g.snacks_animate = false
