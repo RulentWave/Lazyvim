@@ -17,3 +17,11 @@ elseif vim.fn.has("win32") == 1 or vim.fn.has("win64") == 1 then
     vim.o.shell = "powershell"
   end
 end
+
+vim.filetype.add({
+  extension = { nu = "nu" },
+  filename = {
+    ["config.nu"] = "nu",
+    ["env.nu"] = "nu",
+  },
+})
